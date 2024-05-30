@@ -33,5 +33,5 @@ public class Cliente {
 	  double descuento = precioTotalProductos * 0.05;
 	  saldo -= descuento;
 	  }
-	  }
+	}
 }
