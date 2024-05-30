@@ -8,6 +8,12 @@ private ArrayList items;
 public ShoopingCart() {
 	items=new ArrayList<Product>();
 }
+
+public ShoopingCart(ArrayList items) {
+
+	this.items = items;
+}
+
 public double getBalance(ArrayList<Product> productos)
 {
 	double balance=0.00;
