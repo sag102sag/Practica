@@ -3,14 +3,14 @@ public class Cliente {
  private String nombre;
  private String direccion;
  private String telefono;
- private double saldo;
- private ArrayList<Product> productos;
- public Cliente(String nombre, String direccion, String telefono, double saldo) {
+ double saldo;
+ ArrayList<Product> productos;
+ public Cliente(String nombre, String direccion, String telefono, double saldo, ArrayList<Product> productos) {
  this.nombre = nombre;
  this.direccion = direccion;
  this.telefono = telefono;
  this.saldo = saldo;
- this.productos = new ArrayList<>();
+ this.productos = productos;
 }
  public void agregarProducto(Product producto) {
  productos.add(producto);
