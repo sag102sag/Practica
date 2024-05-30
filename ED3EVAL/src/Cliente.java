@@ -26,4 +26,12 @@ public class Cliente {
  double precioTotalProductos = calcularPrecioTotalProductos();
  saldo -= precioTotalProductos;
  }
+ public void aplicarDescuento() {
+	 double precioTotalProductos;
+	  if (productos.size() > 4) {
+	 precioTotalProductos= calcularPrecioTotalProductos();
+	  double descuento = precioTotalProductos * 0.05;
+	  saldo -= descuento;
+	  }
+	  }
 }
