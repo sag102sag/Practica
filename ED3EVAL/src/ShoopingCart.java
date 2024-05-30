@@ -24,6 +24,11 @@ public double getBalance(ArrayList<Product> productos)
 	return balance;
 }
 
+public void getItem(ArrayList<Product> productos, int num)
+{
+	System.out.println(productos.get(num).getTitle());
+}
+
 public void addItem(Product producto)
 {
 	items.add(producto);
